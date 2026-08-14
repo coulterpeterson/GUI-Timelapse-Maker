@@ -1,6 +1,6 @@
 [package]
 name = "gui-timelapse-maker"
-version = "0.1.0"
+version = "0.2.0"
 description = "Stitch a folder of timelapse frames into an MP4"
 authors = ["Coulter Peterson"]
 edition = "2021"

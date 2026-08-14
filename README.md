@@ -21,6 +21,13 @@ Grab the installer for your platform from the
 [latest release](https://github.com/coulterpeterson/GUI-Timelapse-Maker/releases/latest)
 — `.dmg` for macOS, `.msi` for Windows, `.AppImage` or `.deb` for Linux.
 
+The builds aren't notarized, so the first launch needs a detour. On macOS you'll get
+"can't be opened because Apple cannot check it for malicious software" — open System
+Settings → Privacy & Security, scroll to the bottom, and hit **Open Anyway**. The
+button only shows up after you've tried to open the app once. (Right-click → Open
+stopped working as a shortcut for this in macOS 15.) Windows shows a SmartScreen
+warning; **More info → Run anyway**.
+
 **You need ffmpeg.** The app shells out to it and won't render without it. There's a
 chip in the top right that tells you whether it was found:
 

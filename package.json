@@ -1,7 +1,7 @@
 {
   "name": "gui-timelapse-maker",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Pick a folder of timelapse frames, choose your start and end photo, and stitch them into an MP4 with ffmpeg.",
   "scripts": {
