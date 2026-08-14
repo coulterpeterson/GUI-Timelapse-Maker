@@ -1,0 +1,29 @@
+{
+  "name": "gui-timelapse-maker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pick a folder of timelapse frames, choose your start and end photo, and stitch them into an MP4 with ffmpeg.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "start": "tauri dev",
+    "bundle": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
